@@ -1,0 +1,32 @@
+#app {
+    padding: 20px;
+  }
+  
+  .container {
+    margin-top: 20px;
+  }
+  
+  .cam_col {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .cam_col h3 {
+    color: #333;
+  }
+  
+  .cam_col .info {
+    margin-top: 10px;
+  }
+  
+  .cam_col .info h4 {
+    margin: 5px 0;
+  }
+  
+  .cam_col .info .final_price {
+    color: #d9534f;
+  }
+  

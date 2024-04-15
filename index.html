@@ -1,0 +1,23 @@
+<div id="app">
+    <div class="container">
+      <h1>相機拍賣網</h1>
+      <div class="row">
+        <div class="col-sm-9">
+          <div class="row">
+            <template v-for="item in camera_data" :key="item.name" :camera_data="item">
+              <div class="cam_col">
+                <h3>{{ item.brand }}</h3>
+                <div class="info">
+                  <h4>{{ item.name }}</h4>
+                  <h4>原價 ${{ item.price }}</h4>
+                  <div class="final_price">特價 ${{ item.price * item.discount }}</div>
+                  <button class="btn btn-primary">加入購物車</button>
+                </div>
+              </div>
+            </template>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
